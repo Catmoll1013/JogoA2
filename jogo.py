@@ -13,13 +13,13 @@ personagem = st.radio("Escolha seu personagem:",
 #Descrição dos crias
 if personagem == "JoJo":
     st.write("Você escolheu ser o doutor programador!")
-    st.image("guerreiro.png", use_column_width=True)
+    #st.image("guerreiro.png", use_column_width=True)
 elif personagem == "Matheus":
     st.write("Você escolheu ser o enfermeiro dos dados!")
-    st.image("guerreiro.png", use_column_width=True)
+    #st.image("guerreiro.png", use_column_width=True)
 else:
     st.write("Você escolheu ser a mãe da fgv!")
-    st.image("guerreiro.png", use_column_width=True)
+    #st.image("guerreiro.png", use_column_width=True)
 
 # Pt1
 st.write("Você acorda na sala de programção vazia...")
